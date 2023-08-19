@@ -68,16 +68,6 @@ nav ul li a:hover::after{
     color: #279EFF;
     
 }
-.text-random {
-    float: right;
-    width: 250px;
-    height: 132px;
-    background:transparent url("giphy.gif") center top no-repeat;
-    background-size: 125%;
-}
-.text-random:hover {
-    background-image: url("giphy.gif");
-}
 
 #about {
     padding: 80px 0;
