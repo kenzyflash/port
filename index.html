@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaleab Fikru</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/9f53d4aca3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./assets/logo.png" alt="Logo" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Cyber Security Researcher</p>
+                <h1>Hi, I am <span>Kaleab</span><br>Fikru From Ethiopia</h1>
+            </div>
+        </div>
+    </div>
+<!-- -----------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./assets/kale.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Pellentesque blandit est est, sed elementum magna blandit
+                        eu. Cras convallis dolor dolor, quis molestie mi laoreet 
+                        ut. Morbi vitae finibus dolor. Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Enim consectetur similique 
+                        nesciunt harum. Voluptates eligendi molestias ipsum, odio 
+                        doloremque a. Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Ad consectetur deleniti quas eos voluptas 
+                        illum incidunt voluptatem modi nihil aliquid iure magnam 
+                        officia quam unde, earum obcaecati totam distinctio vitae!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Linux</span><br>Using Linux To Facilitate Workflow</li>
+                            <li><span>SIEM Tools</span><br>Using SIEM Tool To Analyse Logs</li>
+                            <li><span>Programming</span><br>Use Programming Languages To Automate My Workflow</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - present</span><br>Security Analyst At Information Network Security Adminstration(INSA)</li>
+                            <li><span>2022 - 2023</span><br>Cyber Secuity Analyst at Cyber Sike Ltd</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 -present</span><br>A high School Student</li>
+                            <li><span>2022</span><br>Graduated From Elemtary School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -------------services-------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services I Provide</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-regular fa-computer"></i>
+                <h2>Pentesting</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit est est, sed elementum magna blandit eu. Cras convallis dolor dolor, quis molestie mi laoreet ut. Morbi 
+                vitae finibus dolor.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-light fa-people-arrows"></i>
+                <h2>Consulting</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit est est, sed elementum magna blandit eu. Cras convallis dolor dolor, quis molestie mi laoreet ut. Morbi 
+                vitae finibus dolor.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-duotone fa-shield-halved"></i>
+                <h2>Securing Assets</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit est est, sed elementum magna blandit eu. Cras convallis dolor dolor, quis molestie mi laoreet ut. Morbi 
+                vitae finibus dolor.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Work Showcase</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./assets/Work-1.jpg">
+                <div class="layer">
+                    <h3>Port Scanner</h3>
+                    <p>The app helps us to scan for open and closed ports in a given system.
+                       Get it from GitHub.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./assets/Work-2.jpg">
+                <div class="layer">
+                    <h3>Open Source Intelligence Gathering App</h3>
+                    <p>The app helps us to gather a wide and detailed information about any person.
+                       Get it from GitHub.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./assets/Work-3.jpg">
+                <div class="layer">
+                    <h3>A Pentesting Framework</h3>
+                    <p>The app helps us to easily use available pentesting frameworks.
+                       Get it from GitHub.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- ---------contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="conatct-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> kenzy.flash2@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +251954986942</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/kaleab-fikru-488130286/"><i class="fa-brands fa-linkedin fa-beat-fade"></i></a>
+                    <a href="https://t.me/hackerexpo1"><i class="fa-brands fa-telegram fa-beat-fade"></i></a>
+                    <a href="https://github.com/kenzyflash"><i class="fa-brands fa-github fa-beat-fade"></i></a>
+                </div>
+                <a href="#" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://formsubmit.co/your@email.com" method="POST">
+                    <input type="text" name="Name" required placeholder="Your Name" id="name">
+                    <input type="email" name="email" required placeholder="Your Email" id="email">
+                    <textarea name="Message" id="" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Send</button>
+               </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Kaleab Fikru.</p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
